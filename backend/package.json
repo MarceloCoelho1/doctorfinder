@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@prisma/client": "^5.13.0",
+    "cors": "^2.8.5",
     "express": "^4.19.2",
     "nodemon": "^3.1.0",
-    "prisma": "^5.13.0"
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6"
   },
+  "type": "module",
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
     "@types/node": "^20.12.8",
     "ts-node": "^10.9.2",
