@@ -40,6 +40,7 @@ const User = sequelize.define<UserInstance>('User', {
   },
 }, {
   tableName: 'users', // Nome da tabela no banco de dados
+  timestamps: false
 });
 
 export default User;
